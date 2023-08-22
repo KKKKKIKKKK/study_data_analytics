@@ -26,17 +26,18 @@ df_TFD['Married'] = name_column.str.extract(pattern_marriage)[0].apply(lambda x:
 
 # NaN 값이 있는 행 제거
 df_TFD_cleaned = df_TFD.dropna(subset=['Title', 'LastName', 'Married'])
-
+df_TFD_cleaned['Title'] = df_TFD_cleaned['Title'].dropna()
+print(df_TFD_cleaned['Title'].isnull().sum()) 
 
 # 결과 출력 (호칭, 성, 결혼 여부 열만 선택하여 출력)
-result_df = df_TFD[['Title', 'LastName', 'Married']]
+result_df = df_TFD_cleaned[['Title', 'LastName', 'Married']]
 
 # 'Name' 열의 고유한 데이터 저장
 unique_names = name_column.unique()
 
 # 결과 출력
 
-# print(result_df)
+print(result_df)
 
 
 #     Title                                    LastName Married

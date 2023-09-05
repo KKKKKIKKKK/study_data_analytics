@@ -47,10 +47,8 @@ print(result_df)
 # 3    Mrs.          Mrs. Jacques Heath (Lily May Peel)     Mrs
 # 4     Mr.                           Mr. William Henry
 # ..    ...                                         ...     ...
-# 886   NaN                                 Rev. Juozas
+# 885  Mrs.              Mrs. William (Margaret Norton)     Mrs
 # 887  Miss                        Miss. Margaret Edith
 # 888  Miss              Miss. Catherine Helen "Carrie"
 # 889   Mr.                             Mr. Karl Howell
 # 890   Mr.                                 Mr. Patrick
-
-# [891 rows x 3 columns]

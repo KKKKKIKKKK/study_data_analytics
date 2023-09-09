@@ -1,7 +1,7 @@
 <details>
-<summary>웹 크롤링 교육</summary>
+<summary>웹 스크래핑  교육</summary>
 
-####  웹크롤링 
+####  웹 스크래핑 
 | 날짜 | 주제 | 주소 | 교육설명 |
 | --- | --- | --- | --- |
 | 2023-09-05  | 교육 Begeinners | 'https://www.w3schools.com/'| - 브라우저 여는법 /윈도우 창에 주소 연결 /브라우저 닫는법 |
@@ -9,6 +9,8 @@
 | 2023-09-06  | 이마트몰 emartmalls_find | 'https://emart.ssg.com' | - element from bundle Webelement 중 추출 /paginations(for문)|
 | 2023-09-06  | 기트허브github_events_except | 'https://github.com/' | - Login 화면 링크 tag/Login 화면 구성(id/password/click tag) |
 | 2023-09-06  | 구글googlestore_healthcare_loops| 'https://play.google.com/store/' | - 제품정보(서비스명/만든회사명/앱정보tag) /리뷰 내용 추출(내용/날짜/별첨 tag)/회사서비스 전체 리뷰(list +for문)  |
+| 2023-09-07  | 구글googlestore_healthcare_loops_complete| 'https://play.google.com/store/' | - 서비스 앱에 대한 리스트 / 서비스 앱에 대한 리스트 /리뷰 총 갯수 가져오기['리뷰 473개']/댓글 팝업 띄우기   |
+| 2023-09-08  | 잡플래닛 | 'https://play.google.com/store/' | - 서비스 앱에 대한 리스트 / 서비스 앱에 대한 리스트 /리뷰 총 갯수 가져오기['리뷰 473개']/댓글 팝업 띄우기   |
 
 
 
